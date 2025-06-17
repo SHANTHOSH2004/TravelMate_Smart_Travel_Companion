@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/plan_trip_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Plan a New Trip"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <EditText
+            android:id="@+id/edit_destination"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="Destination"
+            android:inputType="text"
+            app:layout_constraintTop_toBottomOf="@id/plan_trip_title"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="24dp"/>
+
+        <EditText
+            android:id="@+id/edit_start_date"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="Start Date (YYYY-MM-DD)"
+            android:focusable="false"
+            android:clickable="true"
+            android:inputType="none"
+            app:layout_constraintTop_toBottomOf="@id/edit_destination"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="16dp"/>
+
+        <EditText
+            android:id="@+id/edit_end_date"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="End Date (YYYY-MM-DD)"
+            android:focusable="false"
+            android:clickable="true"
+            android:inputType="none"
+            app:layout_constraintTop_toBottomOf="@id/edit_start_date"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="16dp"/>
+
+        <Button
+            android:id="@+id/btn_save_trip"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Save Trip"
+            app:layout_constraintTop_toBottomOf="@id/edit_end_date"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="24dp"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView> 
