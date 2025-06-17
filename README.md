@@ -1,3 +1,14 @@
+App demo video link------------>https://drive.google.com/file/d/1N1xd5lnC1I9y4RYmoDmg-2FclsT-BE1W/view?usp=sharing
+
+
+![WhatsApp Image 2025-06-17 at 19 34 38_caeb21ae](https://github.com/user-attachments/assets/af0eecd1-b4a4-4629-b4ff-6cf16f468d94)
+
+![WhatsApp Image 2025-06-17 at 19 33 43_81929e28](https://github.com/user-attachments/assets/041bf597-5de2-49b3-935f-c9dfa425d7b6)
+
+![WhatsApp Image 2025-06-17 at 19 33 43_58f168e5](https://github.com/user-attachments/assets/2378f87b-bb1a-4996-9af2-d3b72a0c9eed)
+
+
+
 🧭 Smart Travel Companion
 A native Android app designed to simplify travel planning and help users stay organized before, during, and after their trips.
 
